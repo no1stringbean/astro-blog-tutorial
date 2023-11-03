@@ -1,7 +1,9 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: "For Those Stuck in Traffic"
 subtitle: "A daily prayer for cyclists going out for a bike ride"
-date: "2023-10-28"
+pubDate: "2023-10-28"
+author: "Ben Schultz"
 ---
 
 I breeze by, wind in my face with a smile,
@@ -18,10 +20,3 @@ Let this time, stuck in traffic,
 Be strangely rejuvenating, a time to breathe within what is likely a busy day,
 A time in between one thing and the next,
 And cover each driver with your peace.
-
-###### References
-
-[[3 Liturgies]]
-
-Tag: #LfaBR #liturgy #bikeRide #bike #bike/commute #commuteByBike #traffic #cars
-Type: #atomic/seedling

@@ -1,7 +1,9 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: "For Commuting by Bike"
 subtitle: "A daily prayer for cyclists going out for a bike ride"
-date: "2023-10-28"
+pubDate: "2023-10-28"
+author: "Ben Schultz"
 ---
 
 What a blessing!
@@ -21,10 +23,3 @@ Not as a sacrifice of myself to a career,
 But as an expression of love for the people I work with,
 For the job I get to do each day,
 For the clients, customers, and people I have the honor of serving.
-
-###### References
-
-[[3 Liturgies]]
-
-Tag: #LfaBR #liturgy #bikeRide #bike #commuteByBike #bike/commute #cycling
-Type: #atomic/flowering

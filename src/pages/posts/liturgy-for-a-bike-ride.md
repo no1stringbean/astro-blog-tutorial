@@ -1,8 +1,9 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: "Liturgy for a Bike Ride"
 description: "A daily prayer for cyclists going out for a bike ride"
 pubDate: "2023-10-28"
-author: "Ben Schutlz"
+author: "Ben Schultz"
 image:
   url:
   alt:
@@ -136,7 +137,3 @@ some believers and some not,
 and drive me to see this hobby as a special way you’ve created us to connect.
 
 Guide me to come in your name to bring completeness to my life and the little section of the world I have been given the grace to encounter.
-
-###### References
-
-[[3 Liturgies]]

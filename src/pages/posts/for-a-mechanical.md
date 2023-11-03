@@ -1,7 +1,9 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: "For a Mechanical"
 subtitle: "A daily prayer for cyclists going out for a bike ride"
-date: "2023-10-28"
+pubDate: "2023-10-28"
+author: "Ben Schultz"
 ---
 
 Broken parts break my spirit,
@@ -23,10 +25,3 @@ I am thankful for all the times a ride has gone right,
 For the millions of pedal strokes without a problem,
 And for this opportunity to grow in patience.
 Help me to fix this enough to resume on my way.
-
-###### References
-
-[[3 Liturgies]]
-
-Tag: #LfaBR #bike/mechanical #liturgy #bikeRide #bike #cycling
-Type: #atomic/sapling
