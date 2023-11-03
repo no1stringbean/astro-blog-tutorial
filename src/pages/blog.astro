@@ -1,22 +1,9 @@
 ---
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import '../styles/global.css';
+import BaseLayout from '../layouts/BaseLayout.astro';
 
-const pageTitle = "Blog"
+const pageTitle = "Blog";
 ---
-
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>{pageTitle}</title>
-  </head>
-  <body>
-    <Header />
-    <h1>{pageTitle}</h1>
+<BaseLayout pageTitle={pageTitle}>
         <p>This is a blog page. Below is a list of posts.</p>
         <ul>
             <li><a href="/posts/liturgy-for-a-bike-ride/">Liturgy for a Bike Ride</a></li>
@@ -24,9 +11,4 @@ const pageTitle = "Blog"
             <li><a href="/posts/for-a-mechanical/">For a Mechanical</a></li>
             <li><a href="/posts/for-commuting-by-bike/">For Commuting by Bike</a></li>
             <li><a href="/posts/for-those-stuck-in-traffic/">For Those Stuck in Traffic</a></li>
-        <Footer />
-        <script>
-            import "../scripts/menu.js";
-          </script>
-    </body>
-</html>
+</BaseLayout>
