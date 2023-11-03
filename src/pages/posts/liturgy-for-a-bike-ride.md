@@ -7,8 +7,7 @@ author: "Ben Schultz"
 image:
   url:
   alt:
-tags: ["liturgies"]
-noteType: "atomic/budding"
+tags: ["blogging"]
 ---
 
 ## v2.1.2

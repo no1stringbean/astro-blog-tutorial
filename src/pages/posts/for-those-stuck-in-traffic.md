@@ -4,6 +4,7 @@ title: "For Those Stuck in Traffic"
 subtitle: "A daily prayer for cyclists going out for a bike ride"
 pubDate: "2023-10-28"
 author: "Ben Schultz"
+tags: ["for drivers"]
 ---
 
 I breeze by, wind in my face with a smile,

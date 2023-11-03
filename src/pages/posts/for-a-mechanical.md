@@ -4,6 +4,7 @@ title: "For a Mechanical"
 subtitle: "A daily prayer for cyclists going out for a bike ride"
 pubDate: "2023-10-28"
 author: "Ben Schultz"
+tags: ["on the road"]
 ---
 
 Broken parts break my spirit,

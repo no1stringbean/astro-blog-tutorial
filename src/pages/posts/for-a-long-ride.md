@@ -7,7 +7,7 @@ author: "Ben Schultz"
 image:
   url:
   alt:
-tags: ["liturgies"]
+tags: ["road bike"]
 ---
 
 Lord, you are so good, so generous

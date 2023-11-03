@@ -4,6 +4,7 @@ title: "For Commuting by Bike"
 subtitle: "A daily prayer for cyclists going out for a bike ride"
 pubDate: "2023-10-28"
 author: "Ben Schultz"
+tags: ["commute by bike"]
 ---
 
 What a blessing!
