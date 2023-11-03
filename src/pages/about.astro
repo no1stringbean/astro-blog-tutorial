@@ -1,7 +1,7 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-const pageTitle = "About Me"
+const pageTitle = "About Me";
 
 const identity = {
   firstName: "Ben",
@@ -13,7 +13,7 @@ const identity = {
 const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
 
 const happy = true;
-const finished = false;
+const finished = true;
 const goal = 3;
 
 const skillColor = "navy";
@@ -22,33 +22,53 @@ const textCase = "uppercase";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <style define:vars={{skillColor, fontWeight, textCase}}>
+  <style define:vars={{ skillColor, fontWeight, textCase }}>
     h1 {
       color: purple;
       font-size: 4rem;
-      }
+    }
     .skill {
-        color: var(--skillColor);
-        font-weight: var(--fontWeight);
-          text-transform: var(--textCase);
+      color: var(--skillColor);
+      font-weight: var(--fontWeight);
+      text-transform: var(--textCase);
+    }
+  </style>
+  <p>
+    This is an about page that was created in a tutorial for Astro. This
+    tutorial can be found at <a
+      href="https://docs.astro.build/en/tutorial/2-pages/1/">Astro Docs</a
+    >.
+  </p>
+  <p>
+    Here are a few (boiler plate) facts about (not) me:
+    <ul>
+      <li>My name is {identity.firstName}.</li>
+      <li>
+        I live in {identity.country} and I work as a {identity.occupation}.
+      </li>
+      {
+        identity.hobbies.length >= 2 && (
+          <li>
+            Two of my hobbies are: {identity.hobbies[0]} and{" "}
+            {identity.hobbies[1]}
+          </li>
+        )
       }
-    </style>
-      <p>This is an about page that was created in a tutorial for Astro. This tutorial can be found at <a href="https://docs.astro.build/en/tutorial/2-pages/1/">Astro Docs</a>.</p>
-      <p>Here are a few (boiler plate) facts about (not) me:
-        <ul>
-          <li>My name is {identity.firstName}.</li>
-          <li>I live in {identity.country} and I work as a {identity.occupation}.</li>
-              {identity.hobbies.length >= 2 &&
-          <li>Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}</li>
-              }
-        </ul>
-      <p>My skills are:</p>
-        <ul>
-          {skills.map((skill) => <li class="skill">{skill}</li>)}
-        </ul>
-        {happy && <p>I am happy to be learning Astro!</p>}
+    </ul>
+    <p>My skills are:</p>
+    <ul>
+      {skills.map((skill) => <li class="skill">{skill}</li>)}
+    </ul>
+    {happy && <p>I am happy to be learning Astro!</p>}
 
-        {finished && <p>I finished this tutorial!</p>}
+    {finished && <p>I finished this tutorial!</p>}
 
-        {goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>}
-      </BaseLayout>
+    {
+      goal === 3 ? (
+        <p>My goal is to finish in 3 days.</p>
+      ) : (
+        <p>My goal is not 3 days.</p>
+      )
+    }
+  </p>
+</BaseLayout>
